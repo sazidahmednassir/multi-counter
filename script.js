@@ -1,3 +1,8 @@
+// select dom elements
+const counter = document.getElementById("main-counter");
+const incrementbtn = document.getElementById("increment");
+const decrementbtn = document.getElementById("decrement");
+
 //initial state
 const initialState = {
   count: 0,
